@@ -14,6 +14,8 @@ public interface ArticleService {
      */
     public Serializable save(Article article); 
     
+    public void saveOrUpdate(Article article); 
+    
     /**
      * load all
      * @return
@@ -21,4 +23,12 @@ public interface ArticleService {
     public List<Article> findAll();
 
 	public Article loadById(int id);
+	
+	public List<Article> loadAllTitles();
+	
+	public void delete(int id);
+	
+	public int count();
+
+	public List<Article> loadTitlesByPage(int pageNo, int pageSize);
 }

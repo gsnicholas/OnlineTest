@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei", "Arial", "Verdana", "Tahoma";
+    font-weight: 500;
+}
+
+.white {
+	color: white!important;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.left-15 {
+	margin-left: 15px;
+}
+
+.separator {
+	margin: 0 3px;
+}
+
+.primary-color {
+	background-color: #337ab7
+}
+
+.full-width {
+	width: 100%;
+}
+
+.placeholder
+{
+  color: #aaa;
+}
+
+.background-grey {
+   background-color:#EEEFF1!important
+}
+
+.font-12 {
+	font-size: 12px;
+}
